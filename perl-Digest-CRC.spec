@@ -9,7 +9,6 @@ Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
 Source0:	%{module}-%{version}.tar.gz
 BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 The Digest::CRC module calculates CRC sums of all sorts. It contains wrapper
