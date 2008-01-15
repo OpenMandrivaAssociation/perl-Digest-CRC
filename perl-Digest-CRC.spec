@@ -3,7 +3,7 @@
 Summary:	Generic CRC functions
 Name: 		perl-%{module}
 Version: 	0.14
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	Public Domain
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
