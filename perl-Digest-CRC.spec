@@ -1,9 +1,9 @@
 %define upstream_name    Digest-CRC
-%define upstream_version 0.14
+%define upstream_version 0.16
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:	Generic CRC functions
 License:	Public Domain
