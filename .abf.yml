@@ -1,2 +1,4 @@
+removed_sources:
+  Digest-CRC-0.16.tar.gz: 215407b38b5180fa78b1f7e2b7655b299cc8ed8d
 sources:
-  "Digest-CRC-0.16.tar.gz": 215407b38b5180fa78b1f7e2b7655b299cc8ed8d
+  Digest-CRC-0.18.tar.gz: 8289a1ebaa0e2e022635e83bb37dc7c2b32c9dd5
