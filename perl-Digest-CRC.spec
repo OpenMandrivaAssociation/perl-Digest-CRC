@@ -1,15 +1,14 @@
 %define upstream_name    Digest-CRC
-%define upstream_version 0.16
-
+%define upstream_version 0.18
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	3
+Version:    %perl_convert_version 0.18
+Release:	1
 
 Summary:	Generic CRC functions
 License:	Public Domain
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Digest/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Digest/Digest-CRC-0.18.tar.gz
 
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
@@ -94,4 +93,5 @@ rm -rf %{buildroot}
 
 * Fri Mar 09 2007 Oden Eriksson <oeriksson@mandriva.com> 0.10-1mdv2007.1
 - initial Mandriva package
+
 
