@@ -7,7 +7,7 @@ Release:	3
 Summary:	Generic CRC functions
 License:	Public Domain
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Digest/Digest-CRC-0.18.tar.gz
 
 BuildRequires:	perl-devel
