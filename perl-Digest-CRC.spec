@@ -1,14 +1,14 @@
 %define upstream_name    Digest-CRC
-%define upstream_version 0.18
+%define upstream_version 0.24
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version 0.18
-Release:	3
+Version:    %{upstream_version}
+Release:	1
 
 Summary:	Generic CRC functions
 License:	Public Domain
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Digest/Digest-CRC-0.18.tar.gz
+Url:		https://metacpan.org/dist/Digest-CRC
+Source0:	https://cpan.metacpan.org/authors/id/O/OL/OLIMAUL/Digest-CRC-0.24.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
