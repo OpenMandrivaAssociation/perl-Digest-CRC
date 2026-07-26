@@ -1,8 +1,7 @@
 %define upstream_name    Digest-CRC
-%define upstream_version 0.24
 Name:       perl-%{upstream_name}
-Version:    %{upstream_version}
-Release:	1
+Version:    0.24
+Release:	2
 
 Summary:	Generic CRC functions
 License:	Public Domain
@@ -19,7 +18,7 @@ The Digest::CRC module calculates CRC sums of all sorts. It contains wrapper
 functions with the correct parameters for CRC-CCITT, CRC-16 and CRC-32.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
@@ -63,9 +62,7 @@ rm -rf %{buildroot}
 
 * Wed Jul 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.140.0-1mdv2010.0
 + Revision: 403127
-- rebuild using %%perl_convert_version
-
-* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.14-4mdv2009.0
+- rebuild using %0.24 Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.14-4mdv2009.0
 + Revision: 256680
 - rebuild
 
