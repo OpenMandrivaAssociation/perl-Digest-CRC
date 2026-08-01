@@ -2,7 +2,7 @@
 %define upstream_version 0.24
 Name:       perl-%{upstream_name}
 Version:	0.24
-Release:	2
+Release:	3
 
 Summary:	Generic CRC functions
 License:	Public Domain
@@ -18,7 +18,7 @@ The Digest::CRC module calculates CRC sums of all sorts. It contains wrapper
 functions with the correct parameters for CRC-CCITT, CRC-16 and CRC-32.
 
 %prep
-%setup -q -n %{upstream_name}-%{version}
+%setup -q -n Digest-CRC-0.24
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
